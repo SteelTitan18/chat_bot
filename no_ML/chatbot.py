@@ -65,4 +65,9 @@ def get_response(user_input):
     return response
 
 while True:
-    print('Boty: ' + get_response(input('You: ')))
+    question = input('You: ')
+
+    if str(question) == 'stop':
+        print('Ce fut un plaisir !')
+        break
+    print('Boty: ' + get_response(question))
