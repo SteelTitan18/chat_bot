@@ -1,0 +1,27 @@
+{"intents": [
+  {"tag": "greetings",
+      "patterns": ["Hello", "Hi", "Yo", "Coucou", "Cc", "Bonjour", "Salut", "Bonjour", "Salutations", "Hé", "Hey there", "Hiya", "Hiya!", "Hi there", "Hey", "Bonjour à tous", "Bonjour tout le monde", "Hello everyone", "Hi everyone", "Salutations", "Salut à toi", "Salut!", "Saluton", "Hi!", "Salve"],
+      "responses": ["Hello", "Hey", "Hi", "Comment puis-je vous aider ?", "Salut", "Bonjour", "Salutations", "Salut!", "Salut à toi", "Hi!", "Comment ça va ?"]
+  },
+  {"tag": "goodbye",
+      "patterns": ["Ciao", "See you", "A plus", "Au revoir"],
+      "responses": ["A la prochaine", "Ok", "A +"]
+  },
+  {"tag": "name",
+      "patterns": ["Quel est ton nom ?", "Comment t'appelles tu ?", "Ton nom", "comment t'appelles-tu", "qui es-tu"],
+      "responses": ["Je m'appelle Boty", "Boty !", "C'est Boty"]
+  },
+  {"tag": "creator",
+    "patterns": ["Qui t'a créé ?", "Qui est ton maître ?", "Comment s'appelle ton créateur ?"],
+    "responses": ["Wlad", "C'est Wlad", "Un certain Wlad"]
+  },
+  {"tag": "africa_recipes",
+    "patterns": ["Quels sont les plats africains populaires ?", "Quelle est la cuisine traditionnelle en Afrique ?", "Recettes africaines", "Plats typiques d'Afrique"],
+    "responses": ["La cuisine africaine est très diversifiée en raison de la grande variété de cultures et de traditions culinaires sur le continent. Voici quelques recettes de plats africains populaires :",
+                  "1. Poulet yassa : Un plat sénégalais à base de poulet mariné dans une sauce à base d'oignons, de citron et d'épices, puis grillé ou braisé.",
+                  "2. Couscous : Un plat d'origine berbère qui est couramment consommé dans plusieurs pays d'Afrique du Nord, avec différentes variations selon les régions.",
+                  "3. Bobotie : Un plat traditionnel d'Afrique du Sud à base de viande hachée, d'œufs et de pain, assaisonné avec des épices et cuit au four.",
+                  "4. Jollof rice : Un plat populaire en Afrique de l'Ouest, principalement au Nigeria, à base de riz, de tomates, d'oignons et d'épices, souvent servi avec du poulet ou du poisson.",
+                  "5. Injera : Un pain traditionnel éthiopien et érythréen, qui est également utilisé comme base pour de nombreux plats en Éthiopie, comme le doro wat (un ragoût de poulet épicé) ou le tibs (un plat de viande sautée)."]
+  }
+]}
