@@ -1,0 +1,6 @@
+pydub
+speech_recognition_fork
+sounddevice
+gTTS
+wavio
+scipy
